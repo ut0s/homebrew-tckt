@@ -1,23 +1,23 @@
 class Tckt < Formula
   desc "Markdown task manager with terminal, web, and MCP interfaces"
   homepage "https://github.com/ut0s/homebrew-tckt"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
-    url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.2/tckt-v0.1.2-macos-universal.tar.gz"
-    sha256 "3c01b90c221e6e0d1a017037a62cd8f1ebd677c138ffdd1a128405ae090c38b1"
+    url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.3/tckt-v0.1.3-macos-universal.tar.gz"
+    sha256 "831b3a7587333c0d725347892ab45f62f234e56082fabed838ecef64abacf3f8"
     depends_on macos: :sonoma
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.2/tckt-v0.1.2-linux-x86_64-musl.tar.gz"
-      sha256 "8fe7b0cfda2b680ed3c532527f0b0e2a3d3691f0f14e732cdd40692153266d0f"
+      url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.3/tckt-v0.1.3-linux-x86_64-musl.tar.gz"
+      sha256 "cdda97486ddcf34e7e32ffdade2f6c637a7589a8fb38d53015811dbf18f009eb"
     end
     on_arm do
-      url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.2/tckt-v0.1.2-linux-aarch64-musl.tar.gz"
-      sha256 "461aafba7ed22c591954e949b439b14863977413020c0274206892fdb7b0b8f4"
+      url "https://github.com/ut0s/homebrew-tckt/releases/download/v0.1.3/tckt-v0.1.3-linux-aarch64-musl.tar.gz"
+      sha256 "2f486603a98f71a98b9bc40028e7f3cc43d2290b81a2ff95d2e98964d3cd6912"
     end
   end
 
