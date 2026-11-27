@@ -19,3 +19,7 @@ On Linux, Homebrew service management requires systemd.
 On macOS, stop a pre-existing `tckt service install` with `tckt service uninstall` first.
 After upgrading, use `brew services restart ut0s/tckt/tckt`.
 Projects, configuration, and task files are preserved on uninstall.
+
+On macOS, tckt installs and uses PipoPapo 0.1.2 for audio notifications.
+
+On Linux, install PipoPapo separately and make `pppp` available on the server's PATH for audio notifications.
